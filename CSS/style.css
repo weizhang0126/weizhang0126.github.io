@@ -120,14 +120,14 @@ html, body {
 .container-left {
     margin-left: 0%;
     height: 100%;
-    width: 200px;
+    width: 250px;
 }
 
 /* 右侧部分，用来放置正文 */
 .container-right {
     height: 100%;
     /* 和左侧部分中间留出50px间隙 */
-    width: 900px;
+    width: 800px;
     /* 若内容溢出则自动加上滚动条 */
     overflow: auto;
     background-color: rgba(255, 255, 255, 0.3);
@@ -137,14 +137,14 @@ html, body {
 /* 展示用户信息的卡片 */
 .card {
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 30px;
 }
 
 /* 用户头像 */
 .card img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
